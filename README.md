@@ -1,16 +1,11 @@
-# finalthesisADS
-Final code files thesis
+Final code files ADS thesis
 This project consists of the following files:
-1) libraries_sim_final.R
-2) gendata_sim_final.R
-3) methods_sim_final.R
-4) simulation_sim_final
-5) analysis_sim_thesis.R
-6) plots_final (and plots_final_rmd) # code to generate (example) plots
-7) sessionInfo.txt # To see the specifics of R used for this study
-8) This readme file
+- simulation_sim_final, which is used to run the simulation, and save the results in a separate _results_ folder.
+- analysis_sim_thesis.R, which is used to perform analyses on the results from the simulation,
+as well as to plot the results, which are saved in a separate _figures_ folder. 
 
-First, run files 1-3 before running the simulation.
-Second, run the simulation; since results are not properly saved,
-do the analysis in one (and the same) session.
-Third, analyse results. Use plots_final to get plots. Save them.
+In the aux folder, the methods, libraries and data generating files can be found, which are auxiliary to the study.
+Alongside this readme file is the sessionInfo.txt, which covers the specifics of the version of R used for this study.
+
+The auxiliary files should first be run, after which the simulation can be run.
+Then, the results can be analysed.
